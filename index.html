@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>FLAMES</h1>
+            <p>Enter your name and your partner's name to see your relationship type!</p>
+            
+            <form id="flamesForm">
+                <div class="input-group">
+                    <label for="name1">Your Name</label>
+                    <input type="text" id="name1" name="name1" required>
+                </div>
+                <div class="input-group">
+                    <label for="name2">Partner's Name</label>
+                    <input type="text" id="name2" name="name2" required>
+                </div>
+
+                <div class="submit-container">
+                    <button type="submit">Find Relationship Type</button>
+                </div>
+            </form>
+
+            <div id="result" class="result">
+                <h2>Result: <span id="flamesResult"></span></h2>
+            </div>
+
+            <!-- Created by Ratnesh Button -->
+            <div class="footer">
+                <a href="https://ratnesh.vercel.app/" target="_blank" class="created-by">Created by Ratnesh</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
